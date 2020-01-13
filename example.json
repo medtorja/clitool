@@ -1,0 +1,48 @@
+[
+  {
+    "type": "ec2",
+    "name": "my-ec2-machine",
+    "properties": {
+      "type": "r4.2xlarge",
+      "name": "ec2-machine"
+    }
+  }, 
+  {
+    "type": "ec2",
+    "name": "my2-ec2-machine",
+    "properties": {
+      "type": "r4.2xlarge",
+      "name": "ec2-machine2"
+    }
+  }, 
+  {
+    "type": "sqs",
+    "name": "my-sqs-queue1", 
+    "properties": {
+      "type": "fifo",
+      "name": "sqs-queue1"
+    }
+  },
+  {
+    "type": "sqs",
+    "name": "my-sqs-queue2", 
+    "properties": {
+      "type": "fifo",
+      "name": "sqs-queue2"
+    }
+  },
+  {
+    "type": "s3",
+    "name": "my-s3-bucket", 
+    "properties": {
+      "bucket-name": "my-bucket-name"
+    }
+  },
+  {
+    "type": "s3",
+    "name": "my-s3-bucket", 
+    "properties": {
+      "bucket-name": "my-bucket-name2"
+    }
+  }
+]
